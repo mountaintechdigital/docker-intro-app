@@ -41,14 +41,14 @@ git push origin <your-remote-branch-name>
 
 6. Now we that we have made the changes, we want to dockerize the application and then deploy the image(the packaged application) so we can view our application in the browser. We must first make sure docker is installed and running in our local computer.
 
-To see all the images currently available run:
+  To see all the images currently available run:
 ```bash
 docker images
 ```
 
-The images are blue prints or prototypes of your actively running application. When you run these images they become containers or process (ps) which   are the live version of the images.
+  The images are blue prints or prototypes of your actively running application. When you run these images they become containers or process (ps) which are the live version of the images.
 
-To see all the currently available/running processes run:
+  To see all the currently available/running processes run:
 ```bash
 docker ps
 ```
@@ -69,7 +69,7 @@ docker run -d -p 3000:3000 johnshu-docker-app
 
 8. When the build is complete you should be able to run 'docker ps' and see the new container. Remember now its no longer an image but a container with a pod running inside the container.
 
-You can access it on your browser using either http://localhost:3000 or 0.0.0.0:30000
+  You can access it on your browser using either http://localhost:3000 or 0.0.0.0:30000
 
 ```bash
 docker ps
