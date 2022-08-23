@@ -1,4 +1,4 @@
-# Docker Getting Started Tutorial
+# MountainTechDigital Docker Todo App Tutorial
 ![Screen Shot 2022-08-23 at 3 57 21 PM](https://user-images.githubusercontent.com/110779479/186264249-d18acf74-f545-40e1-91a5-ec4eef5475cf.png)
 
 This tutorial has been written with the intent of helping folks get up and running
