@@ -26,7 +26,7 @@ git clone https://github.com/mountaintechdigital/docker-intro-app.git
 git checkout -b <Your-Branch-Name>
 ```
 
-4. Edit your application to customize it to your taste. You can start by opening app.js and changing 'John Shu' to 'Your Name'.
+4. Edit your application to customize it to your taste. You can start by opening index.html in app -> src -> index.html and changing 'John Shu' to 'Your Name'.
 
 
 5. Now save the application, commit with a message and then push to your remote branch name. You can use 'git branch -a' to find out about the remote branches
