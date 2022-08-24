@@ -55,7 +55,7 @@ docker ps
 7. Now to build the image we use 'docker build'. We make sure to run this command in the folder where we have our specified 'Dockerfile'. This will run through the Dockerfile and build an image.
 
 ```bash
-docker build -t johnshu-docker-app
+docker build -t johnshu-docker-app .
 ```
 
 8. Now that we have built the image, we can take a look at it using the docker ps command. Then we can move on to running the image.
